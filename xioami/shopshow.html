@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shopshow.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_864532_gcyotjtgm3.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_870498_n37h95q3g2.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/css/swiper.min.css">
+</head>
+
+<body>
+    <div class="header">
+    </div>
+    <section>
+            <div class="over" >
+        <div class="container  Navigation">
+            <h2>
+                <a href="#">小米MAX3</a>
+            </h2>
+            <div class="container  Navigation-r">
+                <a href="#">概述</a>
+                <span>|</span>
+                <a href="#">图集</a>
+                <span>|</span>
+                <a href="#">参数</a>
+                <span>|</span>
+                <a href="#">F码通道</a>
+                <span>|</span>
+                <a href="#">用户评价</a>
+                <!-- <h3><a href="#">立即购买</a></h3> -->
+            </div>
+
+        </div>
+    </div>
+        <!-- 未登陆提示 -->
+        <div class="container show">
+            为了方便您购买，请提前登录
+            <a href="#">立即登录</a>
+            <i id= "container-i" class="iconfont icon-cuo"></i>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            // $(document).ready(function () {
+                $("#container-i").click(function () {
+                    $( ".show" ).slideToggle( "slow" );
+                });
+            // });
+        </script>
+        <!-- 主要部分 -->
+        <div style="width: 1349px;">
+        <div class="xm-buyBox">
+            <div class="box Clearfix">
+                <!-- 左侧轮播 -->
+                <div class="swiper-container Box black" id="oneI" name="black">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide viewpager-img-one">
+                            <img src="images/p1.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-two">
+                            <img src="images/p2.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-three">
+                            <img src="images/p3.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-four">
+                            <img src="images/p4.jpg" alt="">
+                        </li>
+                    </ul>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-container Box blue" id="twoI" name="blue">
+                    <ul class="swiper-wrapper ">
+                        <li class="swiper-slide viewpager-img-one">
+                            <img src="images/b1.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-two">
+                            <img src="images/b2.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-three">
+                            <img src="images/b3.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-four">
+                            <img src="images/b4.jpg" alt="">
+                        </li>
+                    </ul>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-container Box jin" id="threeI" name="jin">
+                    <ul class="swiper-wrapper ">
+                        <li class="swiper-slide viewpager-img-one">
+                            <img src="images/f1.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-two">
+                            <img src="images/f2.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-three">
+                            <img src="images/f3.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide viewpager-img-four">
+                            <img src="images/f4.jpg" alt="">
+                        </li>
+                    </ul>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </div>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.0/js/swiper.min.js"></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    scrollbar: {
+                        el: '.swiper-scrollbar',
+                    },
+                });
+
+            </script>
+            <!-- <div style="width: 1349px;"> -->
+            <div class="box span10">
+                <h1>
+                    <span class="name">小米Max 3</span>
+                </h1>
+                <p>
+                    <font color="#ff4a00">「全系限时直降100元」</font>大屏大电量 震撼视界 / 5500mAh 电量，支持给多个设备充电 / AI 双摄超大像素，双核对焦 / 单手可握纤薄全金属机身
+                </p>
+                <span class="box span10-span">
+                    1599元
+                    <s>1699</s>
+                </span>
+                <div class="box span10-ka">
+                    <ul>
+                        <li>
+                            <span class="flow-tag">赠品</span>
+                            <span class="flow-name">赠米粉卡，内含100元话费</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 主体 -->
+                <div>
+                    <!-- 分仓地址 -->
+                    <div class="address-wrap"> 
+                        <div class="user-address" id="J_userDefaultAddress">
+                            <i class="iconfont icon-dizhi"></i>
+                            <div>
+                                <div class="address-info">
+                                    <span class="item">北京</span>
+                                    <span class="item">北京市</span>
+                                    <span class="item">东城区</span>
+                                    <span class="item">永定门外街道</span>
+                                    <span class="switch-choose-regions" id="J_switchChooseRegions"> 修改 </span>
+                                </div>
+                                <span class="sale" style="color: #ff6700;">有现货</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 产品版本 -->
+                    <div class="list-wrap">
+                        <div class="pro-choose" data-index="0">
+                            <div class="step-title"> 选择版本 </div>
+                            <ul class="step-list">
+                                <li class="step-list-left" data-name="4GB+64GB" data-price="1599元  " data-index="0" data-value="4GB+64GB">
+                                    <a href="#">
+                                        <span class="name">4GB+64GB </span>
+                                        <span class="price"> 1599元 </span>
+                                    </a>
+                                </li>
+                                <li class="step-list-right" data-name="6GB+128GB" data-price="1899元  " data-index="1" data-value="6GB+128GB">
+                                    <a href="#">
+                                        <span class="name">6GB+128GB </span>
+                                        <span class="price"> 1899元 </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pro-color" data-index="1">
+                            <div class="pro-color-title" data-name="选择颜色"> 选择颜色 </div>
+                            <ul class="pro-color-ul">
+                                <li class="pro-color-ul-first " data-value="黑色" data-index="0">
+                                    <a href="#"></a>
+                                    <img src="images/yblack (2).png" alt="黑色" class="black"> 黑色 </a>
+                                </li>
+                                <li class="pro-color-ul-two "  data-value="蓝色" data-index="1">
+                                    <a href="#"></a>
+                                    <img src="images/yblue.png" alt="" class="blue"> 蓝色 </a>
+                                </li>
+                                <li class="pro-color-ul-three "  data-value="金色" data-index="2">
+                                    <a href="#">
+                                        <img src="images/ypink.png" alt="金色" class="jin"> 金色 </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pro-service" data-index="0" data-multi="false">
+                    <div class="pro-service-title"> 选择小米提供的保障服务
+                        <a href="#" target="_blank">了解保障服务 &gt;</a>
+                    </div>
+                    <ul>
+                        <li data-oriprice="179" data-price="179" data-name="意外保障服务" data-bargain_id="2182900011" data-id="2182900011" data-source="common">
+                            <i class="iconfont icon-dui">
+                            </i>
+                            <img src="images/baozhang.jpg">
+                            <div>
+                                <span class="name"> 意外保障服务 </span>
+                                <p class="desc">手机意外摔落/进水/碾压等损坏</p>
+                                <p class="agreement">
+                                    <i class="iconfont icon-dui">
+                                    </i> 我已阅读
+                                    <a href="#"
+                                        target="_blank">服务条款
+                                        <span>|</span>
+                                    </a>
+                                    <a href="#"
+                                        target="_blank">常见问题</a>
+                                </p>
+                                <span class="price"> 179元 </span>
+                            </div>
+                        </li>
+                        <li data-oriprice="99" data-price="99" data-name="碎屏保障服务" data-bargain_id="2182900009" data-id="2182900009" data-source="common">
+                            <i class="iconfont icon-dui"><i></i>
+                            </i>
+                            <img src="images/baozhang.jpg">
+                            <div>
+                                <span class="name"> 碎屏保障服务 </span>
+                                <p class="desc">手机意外碎屏</p>
+                                <p class="agreement">
+                                    <i class="iconfont icon-dui">
+                                    </i> 我已阅读
+                                    <a href="#" target="_blank">服务条款
+                                        <span>|</span>
+                                    </a>
+                                    <a href="#" target="_blank">常见问题</a>
+                                </p>
+                                <span class="price"> 99元 </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pro-list" id="J_proList">
+                    <ul>
+                        <li>小米Max 3 4GB+64GB 金色
+                            <!-- <del>1699元</del> -->
+                            <span>1699元</span>
+                        </li>
+                        <li class="totlePrice"> 总计 ：1599元 </li>
+                    </ul>
+                </div>
+                <ul class="dianji">     
+                    <li >
+                        <a class="jiaru">加入购物车</a>     
+                    </li>
+                    <li id="xihuan"><i class="iconfont icon-aixin" ></i>喜欢 </a></li>
+                </ul>
+                  <!-- 已选择产品 -->
+            
+            <div class="pro-policy" id="J_policy">
+                <a href="#">
+                    <span class="support">
+                        <i class="iconfont icon-dui"></i>
+                        <em>7天无理由退货</em>
+                    </span>
+                    <span class="support">
+                        <i class="iconfont icon-dui"></i>
+                        <em>15天质量问题换货</em>
+                    </span>
+                    <span class="support">
+                        <i class="iconfont icon-dui"></i>
+                        <em>365天保修</em>
+                    </span>
+                </a>
+            </div>
+
+            </div>
+           
+          
+        <!-- 预售流程 -->
+     
+            </div>
+            <div class="infor-con">
+                <div class="section is-visible preload">
+                    <div class="container">
+                        <h3 class="shuoming">特别说明 </h3>
+                        <div class="con">
+                            <img data-src="https://i8.mifile.cn/b2c-mimall-media/aaee9db8790426631abc3b76fa3da617.jpg" class="slider done" src="https://i8.mifile.cn/b2c-mimall-media/aaee9db8790426631abc3b76fa3da617.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="section preload is-visible">
+                    <div class="container">
+                        <h3>官方微信 </h3>
+                        <div class="con">
+                            <img data-src="//i8.mifile.cn/b2c-mimall-media/1a84b2b629512205bf528aae91361efb.jpg" class="slider done" src="https://i8.mifile.cn/b2c-mimall-media/1a84b2b629512205bf528aae91361efb.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+
+    </div>
+</div>
+    </section>
+    <div class="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".search_li").hover(function () {
+                $(".nav_show").toggle();
+            });
+        });
+    </script>
+    <script src="js/jquery.js"></script>
+    <script>
+        $('.header').load('public.html .top');
+        $('.footer').load('public.html .bottom');
+
+    </script>
+<!-- 导航栏固定位置 -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/posfixed.js"></script>
+    <script>
+        //   $(".box").scroll(function () {
+        //     $("xm-buyBox").css({"margin-top" :"600px"});
+        //     console.log(1);
+        // });
+        $(document).ready(function () {
+                $(".over").posfixed({
+                    distance: 0,
+                    pos: "top",
+                    type: "while",
+                    hide: false
+                });             
+        });
+    </script>
+    <script>
+            $(".box").scroll(function () {
+              $("xm-buyBox").css({"margin-top" :"900px; margin:0 atuo;"});
+              console.log(1);
+          });
+          $(document).ready(function () {
+                  $(".Navigation").posfixed({
+                      distance: 0,
+                      pos: "top",
+                      type: "while",
+                      hide: true
+                  });             
+          });
+      </script>
+     </body>
+
+</html>
