@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/shopcar.css"/>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_864532_gcyotjtgm3.css">
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_870498_n37h95q3g2.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="header_">
+				<img src="images/b_02.jpg" alt="" />
+				<span class="myCar">我的购物车</span>
+				<span class="zhuShi">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+				<span class="login">登录</span>
+				<span class="shu">|</span>
+				<span class="register">注册</span>
+			</div>
+		</header>
+		<main>
+			<div class="toubu">
+				<div class="col_check">
+					<i class="zongGou move ">√</i>
+					全选
+				</div>
+				<div class="col_img">图片</div>
+				<div class="col_name">商品名称</div>
+				<div class="col_price">单价</div>
+				<div class="col_num">数量</div>
+				<div class="col_total">小计</div>
+				<div class="col_action">操作</div>
+			</div>
+			<!--<div class="shangPing">
+				<div class="shang_check ">
+					<i class="Gou move">√</i>
+				</div>
+				<div class="shang_img"></div>
+				<div class="shang_name">商品名称</div>
+				<div class="shang_color">颜色</div>
+				<div class="shang_price">单价</div>
+				<div class="shang_num">
+					<div id="jiSuan">
+						<span class="jian">-</span>
+						<span id='shuLiang'>1</span>
+						<span class="jia">+</span>	
+					</div>
+				</div>
+				<div class="shang_total">小计</div>
+				<div class="shang_action">×</div>
+			</div>-->
+			
+			<div class="jieSuan">
+				<span class="jiXu">继续购物
+				&nbsp;&nbsp;|&nbsp;&nbsp;
+				共 	<font id="numberShap">1</font> 件商品，已选择
+					<font id="phoneShap">1</font> 件
+				</span>
+				<button class="dianJihe">去结算</button>
+				<span class="heJi">合计：
+				<font id="zongGong">0</font>元
+				</span>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+		<script src="js/jquery.js"></script>
+    <script>
+      
+        $('.footer').load('public.html .bottom');
+
+    </script>
+		
+	</body>
+</html>
+<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/shopcar.js" type="text/javascript" charset="utf-8"></script>

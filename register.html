@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="maxbackground">
+        <header>
+            <h1>
+                <img src="images/b_02.jpg" alt="">
+            </h1>
+            <h2>注册小米账号</h2>
+        </header>
+        <section>
+            <form class="login_form" onsubmit="return false">
+                <p>国家地区</p>
+                <div class="a">
+                    <input type="text" placeholder="请输入4-10位由数字 字母 下划线组成的用户名" name="username">
+                    <div class="b"></div>
+                
+                </div>
+                <h6 class="small_font">请输入4-10位由数字 字母 下划线组成的用户名</h6>
+                <h4>注册成功后，用户名将不能修改</h4>
+              
+                <div class="phonenumber">
+                    <!-- <div class="phonenumber_l"> -->
+                        <!-- <div class="phonenumber_ll">+86</div> -->
+                        <!-- <div class="phonenumber_lr"></div> -->
+                    </div>
+                    <input type="password" name="password" placeholder="请输入6位数密码，只有有一个字母" class="password">
+                    <h6 class="big_font">密码至少要有一个字母</h6>
+                    <button type="submit" name="btn" value="" class="btn">立即注册</button>
+                </div>
+            </form>
+
+        </section>
+        <footer>
+            <div class="hint">
+                <h5></h5>
+                <h3>注册账号即表示您同意并愿意遵守小米的&nbsp; </h3>
+                <a href="">用户协议</a>和&nbsp;
+                <a href="">隐私政策</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">简体 |</a>
+                </li>
+                <li>
+                    <a href="#">繁体 |</a>
+                </li>
+                <li>
+                    <a href="#">English |</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+            </ul>
+            <div class="f">
+                <h4>小米公司版权所有-京ICP备10046444-</h4>
+                <img src="images/ghs.png" alt="">
+                <h6>京公安网备11010802020134号-京ICP证110507号</h6>
+            </div>
+        </footer>
+    </div>
+    <script src="js/ajax2.js"></script>
+    <!-- <script src="js/star.js"></script> -->
+    <script src="js/register.js"></script>
+    <script>
+        // starBg.init('.canvas-star');
+        register.init('.login_form');
+    </script>
+</body>
+
+</html>
