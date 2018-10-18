@@ -31,8 +31,10 @@ function fn1()
 			$('#phoneShap').html(num3);
 }
 $(function() {
-	if(localStorage.getItem('hongmi')) {
-		var i = localStorage.getItem('hongmi');
+	if(localStorage.getItem('xiaomi3')) {
+		// comsole.log(111)
+		// debugger;
+		var i = localStorage.getItem('xiaomi3');
 		arr = JSON.parse(i);
 		var num = arr.length;
 		var num1 = 0; //判断选择几个

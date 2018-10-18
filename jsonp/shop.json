@@ -1,0 +1,46 @@
+{
+    "msg": 200,
+    "data": [{
+            "id": 1,
+            "name": "小米MAX3",
+            "color":"black",
+            "price": 1599,
+            "xinghaode":"4GB+64GB"
+        },
+        {
+            "id": 2,
+            "name": "小米MAX3",
+            "color":"blue",
+            "price": 1599,
+            "xinghaode":"4GB+64GB"
+        },
+        {
+            "id": 3,
+            "name": "小米MAX3",
+            "color":"jin",
+            "price": 1599,
+            "xinghaode":"4GB+64GB"
+        },
+        {
+            "id": 4,
+            "name": "小米MAX3",
+            "color":"black",
+            "price": 1899,
+            "xinghaode":"6GB+128GB"
+        },
+        {
+            "id": 5,
+            "name": "小米MAX3",
+            "color":"blue",
+            "price": 1899,
+            "xinghaode":"6GB+128GB"
+        },
+        {
+            "id": 6,
+            "name": "小米MAX3",
+            "color":"jin",
+            "price": 1899,
+            "xinghaode":"6GB+128GB"
+        }
+    ]
+}
